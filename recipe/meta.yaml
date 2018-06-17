@@ -20,14 +20,14 @@ build:
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
-    - r-diagrammer
+    - r-diagrammer >=1.0.0
     - r-r6
     - r-stringr
   run:
     - r-base
-    - r-diagrammer
+    - r-diagrammer >=1.0.0
     - r-r6
     - r-stringr
 
