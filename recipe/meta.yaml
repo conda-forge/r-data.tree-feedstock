@@ -1,4 +1,4 @@
-{% set version = "0.7.6" %}
+{% set version = "0.7.7" %}
 
 package:
   name: r-data.tree
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/data.tree_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/data.tree/data.tree_{{ version }}.tar.gz
-  sha256: b6e3d24d0caee4640d8d41c81c25cf10c78323638ccee1a274ab6642b1e6073b
+  sha256: 88f59cf781775165888ae97741a1f9cd9fa6dcc3d6d55db6993b5ee52a954d72
 
 build:
   number: 0
