@@ -12,7 +12,7 @@ source:
   sha256: 0b326682946ae60780329f34725a05a343b631964df0a66a14c9367060685b17
 
 build:
-  number: 0
+  number: 1
   # slipping Windows b/c we are missing: r-diagrammer -> r-igraph
   skip: True  # [win]
   script: R CMD INSTALL --build .
