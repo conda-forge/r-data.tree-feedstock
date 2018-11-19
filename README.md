@@ -14,9 +14,8 @@ Summary: Create tree structures from hierarchical data, and traverse the tree in
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-data.tree-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-data.tree-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-data.tree-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-data.tree-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-data.tree-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-data.tree-feedstock)
 
 Current release info
 ====================
