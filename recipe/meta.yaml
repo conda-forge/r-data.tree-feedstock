@@ -1,4 +1,4 @@
-{% set version = "0.7.8" %}
+{% set version = "0.7.11" %}
 
 package:
   name: r-data.tree
@@ -9,11 +9,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/data.tree_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/data.tree/data.tree_{{ version }}.tar.gz
-  sha256: 0b326682946ae60780329f34725a05a343b631964df0a66a14c9367060685b17
+  sha256: b8b57f9376c2d447f4a55001a780bd8f7d65d3d0b8809e313f876331c73da2d6
 
 build:
   noarch: generic
-  number: 1002
+  number: 0
   # slipping Windows b/c we are missing: r-diagrammer -> r-igraph
   script: R CMD INSTALL --build .
   rpaths:
