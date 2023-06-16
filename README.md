@@ -1,11 +1,11 @@
-About r-data.tree
-=================
+About r-data.tree-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-data.tree-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tidyverse/data.tree
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-data.tree-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create tree structures from hierarchical data, and traverse the tree in various orders. Aggregate, cumulate, print, plot, convert to and from data.frame and more. Useful for decision trees, machine learning, finance, conversion from and to JSON, and many other applications.
 
