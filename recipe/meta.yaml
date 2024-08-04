@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
   # slipping Windows b/c we are missing: r-diagrammer -> r-igraph
   script: R CMD INSTALL --build .
   rpaths:
